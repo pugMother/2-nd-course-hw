@@ -12,7 +12,7 @@
 //let JSfounder = 'Brendan Eich';
 //alert('Язык JavaScript основал ' + JSfounder);
 
-//Task4
+//Task4//
 //let useNumber1 = 10;
 //let useNumber2 = 2;
 //alert('Сумма чисел равна' + (useNumber1+useNumber2));
