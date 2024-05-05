@@ -3,7 +3,7 @@ let str = 'js';
 str = str.toUpperCase();
 console.log(str);
 
-//Task2
+//Task2//
 function getElOfStr(array,str) {
     return array.filter(el => el.toLowerCase(str).startsWith(str));
 }
