@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  height: 1024px;
+  background-image: url(img/topimg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.top_box {
+  padding-top: 217px;
+}
+
+.top_text {
+  width: 750px;
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.text {
+  width: 500px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-top: 32px;
+}
+
+.button {
+  border-radius: 30px;
+  background: rgb(156, 3, 50);
+  border: 1px solid rgb(156, 3, 50);
+  box-sizing: border-box;
+  width: 234px;
+  height: 49px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 44px;
+  font-family: Montserrat;
+  transition: all 0.33s;
+}
+.button:hover {
+  transform: scale(1.05);
+  background: rgb(188, 18, 69);
+}
+
+.game_box {
+  display: flex;
+  gap: 32px;
+  height: 550px;
+  background-color: rgb(0, 9, 21);
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.game_card {
+  height: 306px;
+  display: flex;
+}
+
+.game_card-text {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.play img {
+  border-radius: 16px;
+}
+
+.play {
+  position: relative;
+  border-radius: 16px;
+  transition: all 0.33s;
+}
+.play:hover {
+  border: 3px solid rgb(68, 210, 255);
+  border-radius: 16px;
+  transform: scale(1.05);
+}
+
+.seasons {
+  background-color: rgb(0, 9, 21);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 135px;
+       column-gap: 135px;
+  height: 800px;
+}
+.seasons_text {
+  grid-column: span 1;
+  padding-top: 282px;
+  width: 584px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.seasons_text-top {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.seasons_text-paragraf {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.seasons_button {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  border-radius: 30px;
+  background: rgb(156, 3, 50);
+  border: 1px solid rgb(156, 3, 50);
+  box-sizing: border-box;
+  width: 234px;
+  height: 49px;
+  transition: all 0.33s;
+}
+.seasons_button:hover {
+  transform: scale(1.05);
+  background: rgb(188, 18, 69);
+}
+.seasons_img {
+  grid-column: span 1;
+  padding-top: 233px;
+}
+.seasons_photo {
+  width: 485px;
+  height: 333px;
+}
+
+.words {
+  background-color: rgb(0, 9, 21);
+  height: 800px;
+  display: flex;
+  flex-direction: row-reverse;
+  -moz-column-gap: 135px;
+       column-gap: 135px;
+}
+.words_text {
+  margin-top: 282px;
+  margin-bottom: 282px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.words_text-top {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.words_text-paragraf {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.words_button {
+  width: 234px;
+  height: 48px;
+  border-radius: 30px;
+  background: rgb(156, 3, 50);
+  border: 1px solid rgb(156, 3, 50);
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  transition: all 0.33s;
+}
+.words_button:hover {
+  transform: scale(1.05);
+  background: rgb(188, 18, 69);
+}
+.words_img {
+  margin-top: 239px;
+  margin-bottom: 239px;
+}
+.words_photo {
+  width: 481px;
+  height: 332px;
+}
+
+@media (max-width: 426px) {
+  .center {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .top {
+    height: 735px;
+    background-image: url(img/topmob.jpeg);
+  }
+  .top_box {
+    padding-top: 238px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .top_text {
+    width: 100%;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .text {
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .button {
+    margin-top: 32px;
+    box-sizing: border-box;
+  }
+  .game_box {
+    height: 1221px;
+    flex-wrap: wrap;
+  }
+  .game_box_card {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .play img {
+    max-width: 100%;
+    height: 100%;
+  }
+  .seasons {
+    height: 653px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 64px;
+  }
+  .seasons_text {
+    padding-top: 51px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 32px;
+    justify-content: center;
+  }
+  .seasons_text-top {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .seasons_text_paragraf {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .seasons_img {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 85px;
+  }
+  .seasons_photo {
+    width: 100%;
+    height: 236px;
+  }
+  .words {
+    height: 653px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 64px;
+  }
+  .words_text {
+    margin-top: 51px;
+    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: center;
+  }
+  .words_text-top {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .words_text_paragraf {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .words_img {
+    width: 100%;
+    margin-top: 0px;
+    padding-bottom: 90px;
+  }
+  .words_photo {
+    width: 100%;
+    height: 236px;
+  }
+}
+@media (max-width: 376px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */
