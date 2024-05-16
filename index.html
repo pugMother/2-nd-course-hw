@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <section class="top center">
+    <div class="top_box">
+                <h1 class="top_text">Добро пожаловать на мой сайт !</h1>
+        <p class="text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p>
+        <a href="#"><button class="button">Поехали!</button></a>
+    </div>
+    </section> 
+    <section class="game_box center">
+        <div class="game_card">
+            <a href="#" class="play">
+                <img src="img/gameimg1.jpeg" alt="play-1">
+                <p class="game_card-text">Игра 1</p>
+            </a>
+        </div>
+        <div class="game_card">
+            <a href="#" class="play">
+                <img src="img/gameimg2.jpeg" alt="play-2">
+                <p class="game_card-text">Игра 2</p>
+            </a>
+        </div>
+        <div class="game_card">
+            <a href="#" class="play">
+                <img src="img/gameimg3.jpeg" alt="play-3">
+                <p class="game_card-text">Игра 3</p>
+            </a>
+        </div>
+    </section>
+    <a name="seasons"></a>
+    <section class="seasons center">
+        <div class="seasons_text">
+            <h1 class="seasons_text-top">Времена года!</h1>
+            <p class="seasons_text-paragraf">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <div><button class="seasons_button" onclick="mounthGame(this)">Играть!</button></div>
+        </div>
+        <div class="seasons_img">
+            <img src="img/seasonGamePhoto.svg" alt="seasons-game" class="seasons_photo">
+        </div>
+    </section>
+    <section class="words center">
+        <div class="words_text">
+            <h1 class="words_text-top">Запомни слова </h1>
+            <p class="words_text-paragraf">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <div><button class="words_button" onclick="fruits()">Играть!</button></div>
+        </div>
+        <div class="words_img">
+            <img src="img/wordsGamePhoto.svg" alt="words-game" class="words_photo">
+        </div>
+    </section>
+    <!--<script src="hw-2.js"></script>-->
+    <!--<script src="hw-3.js"></script>-->
+    <!--<script src="hw-4.js"></script>-->
+    <script src="hw-5.js"></script>
+    <!--<script src="hw-6.js"></script>-->
+    <script src="hw-7.js"></script>
+    <script src="hw-8.js"></script>
 </body>
 </html>
